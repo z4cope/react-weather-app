@@ -1,0 +1,4 @@
+/* This file is only created to pass a specific rule in eslint library */
+nav {
+  opacity: 1;
+}
