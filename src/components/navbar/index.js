@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { getLocations } from '../../features/locations/locationSLice';
 
 import {
   NavMenu,
@@ -21,12 +23,17 @@ import {
 } from './styles/header';
 
 const Navbar = () => {
+  const dispatch = useDispatch();
   const [actionMenu, setActionMenu] = useState('');
   const [activeMenu, setActiveMenu] = useState(false);
   const actionMenuHandle = (e) => {
     setActionMenu(e.target.id);
     setActiveMenu(activeMenu ? true : !activeMenu);
   };
+  useEffect(() => {
+    dispatch(getLocations());
+  }, [dispatch]);
+  const locations = useSelector((state) => state.locations.locationsArr);
   return (
     <NavMenu>
       <NavWrapper>
