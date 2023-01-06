@@ -1,7 +1,7 @@
-import Navbar from './components/navbar';
+import PageRoutes from './routes/pages-routes';
 
 function App() {
-  return <Navbar />;
+  return <PageRoutes />;
 }
 
 export default App;

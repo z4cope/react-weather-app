@@ -18,25 +18,20 @@
     "plugin:react-hooks/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": [
-    "react",
-    "prettier"
-  ],
+  "plugins": ["react", "prettier"],
   "rules": {
     "react/no-access-state-in-setstate": "off",
-    "no-unused-vars":"off",
+    "no-unused-vars": "off",
     "react/no-unused-state": "off",
     "react/self-closing-comp": "off",
-    "import/no-cycle":"off",
+    "import/no-cycle": "off",
     "react/prop-types": "off",
     "import/prefer-default-export": "off",
+    "jsx-a11y/anchor-is-valid": 0,
     "react/jsx-filename-extension": [
       "warn",
       {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
+        "extensions": [".js", ".jsx"]
       }
     ],
     "react/react-in-jsx-scope": "off",
@@ -44,8 +39,5 @@
     "no-shadow": "off",
     "prettier/prettier": "error"
   },
-  "ignorePatterns": [
-    "dist/",
-    "build/"
-  ]
+  "ignorePatterns": ["dist/", "build/"]
 }

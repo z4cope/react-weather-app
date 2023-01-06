@@ -7,11 +7,20 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    body {
+        color: #fff;
+    }
+
     ul {
         list-style: none;
     }
 
     button {
         cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
     }
 `;
