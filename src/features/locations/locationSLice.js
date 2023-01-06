@@ -9,8 +9,8 @@ const initialState = {
 
 export const getLocations = createAsyncThunk(
   'locations/getLocations',
-  async () => {
-    const locations = await fetchLocations();
+  async (location) => {
+    const locations = await fetchLocations(location);
     return locations;
   }
 );
