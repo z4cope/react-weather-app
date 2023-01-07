@@ -1,70 +1,246 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [Credits](#credits-a-name"credits")
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-In the project directory, you can run:
+# 📖 Shopping <a name="about-project"></a>
 
-### `npm start`
+> The project is all about a simple interface for showing countries and cities and each city or country weather details, here is the open-weather-app main API that I used for fetching the locations [Open-Weather-App API](http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid={APIkey}). The webapp have 2 user interfaces.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- A home page showing a list of locations.
+- A details page that shows details for the clicked city.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm test`
+- ReactJs
+- Jest
+- Styled Component
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Click [here](https://www.loom.com/share/3977b01627ea4752b8f8de549a5260da) to watch a walk-through description, given by me.
 
-### `npm run build`
+### Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>Webpack</summary>
+  <ul>
+    <li><a href="https://webpack.js.org/guides/getting-started/#basic-setup">Webpack</a></li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Jest</summary>
+  <ul>
+    <li><a href="https://jestjs.io/">Jest</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Key Features <a name="key-features"></a>
 
-### `npm run eject`
+- **Develop webapp around an API**
+- **Conduct test to ensure all edge cases are covered**
+- **Create web page using given wireframe**
+- **Users can filter amount of categories displayed**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Live Demo Link](#https://shopping-sage.vercel.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Project Details
 
-## Learn More
+- [Ahmed Mohsen](https://github.com/AhmedMohsen600)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💻 Getting Started <a name="getting-started"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To get a local copy up and running follow these simple example steps.
 
-### Code Splitting
+## Clone Git Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-Reach to following Github URL:
 
-### Analyzing the Bundle Size
+```
+https://github.com/z4cope/react-weather-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
 
-### Making a Progressive Web App
+-Copy the URL.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-In Visual Studio Code "Terminal" change the current working directory to the location where you want the cloned directory.
 
-### Advanced Configuration
+-Type git clone in the terminal, paste the URL you copied earlier, and press "enter" to create your local clone.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+$ git clone https://github.com/z4cope/react-weather-app
+```
 
-### Deployment
+# Install Dependencies(with following Command)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- npm install
 
-### `npm run build` fails to minify
+# Build webpack <a name="setup"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- run command
+
+```
+npm run build
+```
+
+## Start server
+
+```
+npm start
+```
+
+### Prerequisites <a name="prerequisites"></a>
+
+In order to run this project you need:
+
+- [x] Basic Knowledge of **HTML**, **CSS**, & **JavaScript**.
+- [x] Basic knowledge of **ES6** syntax.
+- [x] Basic knowledge of **Git**, **GitHub** &**Gitflow**.
+- [x] Basic knowledge of **Linters**.
+- [x] Basic knowledge of **Webpack**.
+- [x] Basic knowledge of **Jest** unit-testing library.
+- [x] Basic knowledge of **VS Code** or any other code-editors.
+- [x] Basic knowledge of **React**.
+
+### Setup
+
+Clone this repository to your desired folder:
+
+    _cd PATH_
+
+    _git clone https://github.com/z4cope/react-weather-app
+
+\_cd math-calc
+
+_npm install_
+
+_npm run build_
+
+_npm start_
+
+### Install
+
+Install this project with:
+
+```sh
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npm test
+```
+
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
+
+You can deploy this project using:
+
+```sh
+  npm start
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Ahmed Mohsen**
+
+- GitHub: [@Mohamed Khaled](https://github.com/z4cope)
+- LinkedIn: [@Mohamed Khaled](https://www.linkedin.com/in/mookhaled/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Implement additional home pages, one page per category of movies**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/z4cope/react-weather-app/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CREDITS -->
+
+## Credits <a name="credits"></a
+
+- The original design ideal by [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+- Project from [Microverse](https://github.com/microverseinc/curriculum-react-redux/blob/main/capstone/react_capstone.md) React module
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Thanks to [Microverse](https://www.microverse.org/) for giving this opportunity to learn ...
+- Code Reviewers & Coding Partners.
+- Hat tip to anyone whose code was used.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **How to generate a new key for the API?**
+
+- Open VScode and generate a key by using the following command
+
+```
+curl -X POST https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
