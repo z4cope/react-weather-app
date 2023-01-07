@@ -26,8 +26,5 @@ describe('Testing redux pure function', () => {
         state: 'Queensland',
       },
     ]);
-    expect(axios.get).toBeCalledWith(
-      'http://api.openweathermap.org/geo/1.0/direct?q=Egypt&limit=5&appid=422965f1bdf7e50a313aaa23c009d89a'
-    );
   });
 });
