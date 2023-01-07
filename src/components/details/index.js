@@ -18,7 +18,6 @@ import {
 
 const Details = () => {
   const details = useSelector((state) => state.data.detailsArr);
-
   return (
     <>
       {details.name ? (
