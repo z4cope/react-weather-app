@@ -61,7 +61,7 @@ Click [here](https://www.loom.com/share/3977b01627ea4752b8f8de549a5260da) to wat
 - **Create web page using given wireframe**
 - **Users can filter amount of categories displayed**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
