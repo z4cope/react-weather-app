@@ -65,11 +65,11 @@ Click [here](https://www.loom.com/share/3977b01627ea4752b8f8de549a5260da) to wat
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](#https://shopping-sage.vercel.app/)
+- [Live Demo Link](https://stellular-semolina-6b5cdb.netlify.app/)
 
 ## 🚀 Project Details
 
-- [Ahmed Mohsen](https://github.com/AhmedMohsen600)
+- [Mohamed Khaled](https://github.com/z4cope)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -179,7 +179,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ahmed Mohsen**
+👤 **Mohamed Khaled**
 
 - GitHub: [@Mohamed Khaled](https://github.com/z4cope)
 - LinkedIn: [@Mohamed Khaled](https://www.linkedin.com/in/mookhaled/)
